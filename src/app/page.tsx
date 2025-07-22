@@ -3,8 +3,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Categories from "@/components/Categories";
 import FlashSale from "@/components/FlashSale";
-// import "./App.css";
-
 import TodayCategories from "@/components/TodayCategories";
 import BestSelling from "@/components/BestSelling";
 import Footer from "@/components/Footer";

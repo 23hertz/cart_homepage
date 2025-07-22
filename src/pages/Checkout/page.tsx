@@ -1,5 +1,5 @@
 import styles from "./checkout.module.css";
-import logo from "../../assets/logo.png";
+// import logo from "@/assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBox,
@@ -10,7 +10,7 @@ import {
   faTruck,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Checkout = () => {
+const Checkout=() => {
   return (
     <section className={styles.layout}>
       <section className={styles.container}>

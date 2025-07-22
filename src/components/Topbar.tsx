@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { Link } from 'next/link';
+import Link from "next/link";
 
 function Topbar() {
   return (
@@ -44,15 +44,15 @@ function Topbar() {
         </div>
         
        <div className="tbsl">
-          {/* <Link href="/cart" className="signin text-sm font-bold pr-5">
+          <Link href="/cart" className="signin text-sm font-bold pr-5">
             Cart
           </Link>
           <Link href="/profile" className="signin text-sm font-bold pr-2">
             Profile
           </Link>
-          <Link href="/checkout" className="signin text-sm font-bold pr-2">
-            Checkout
-          </Link> */}
+          <Link href="/login" className="signin text-sm font-bold pr-2">
+            LogIn
+          </Link>
   
         </div> 
       </div>

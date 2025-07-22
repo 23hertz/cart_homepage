@@ -1,6 +1,6 @@
-import Sidebar from '../components/Sidebar';
-import SettingTopbar from '../components/SettingTopbar';
-import Settings from '../components/Settings';
+import Sidebar from '@/components/Sidebar';
+import SettingTopbar from '@/components/SettingTopbar';
+import Settings from '@/components/Settings';
 
 export default function App() {
   return (
